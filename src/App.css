@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .card {
+  background-color: white;
+  min-width: 500px;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 11px 2.8px rgba(0, 0, 0, 0.75);
+}
+
+.App .card__icon {
+  font-size: 35px;
+  float: left;
+  padding-right: 10px;
+}
+
+.App .card__quote {
+  font-size: 17px;
+  margin-bottom: 1rem;
+}
+
+.App .card__author {
+  text-align: end;
+  font-size: 15px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.App .card__btn {
+  display: block;
+  margin-left: auto;
+  width: 35px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  font-size: 25px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 4px #0005;
+}
+
+.App .card__btn:hover {
+  box-shadow: 0 0 10px #0005;
+  transform: scale(1.1);
+  transform: box-shadow 100ms ease, transform 100ms ease;
+}
+
+@media (min-width: 700px) {
+  .App .card {
+    max-height: 210px;
+    max-width: 500px;
+  }
+}
