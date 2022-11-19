@@ -7,6 +7,7 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 
 .App {
@@ -19,7 +20,7 @@ body {
 
 .App .card {
   background-color: white;
-  min-width: 500px;
+  width: 450px;
   padding: 1rem;
   border-radius: 1rem;
   box-shadow: 0px 0px 11px 2.8px rgba(0, 0, 0, 0.75);
@@ -63,6 +64,11 @@ body {
 }
 
 @media (min-width: 700px) {
+  .App {
+    height: 100vh;
+    width: 100vw;
+  }
+
   .App .card {
     max-height: 210px;
     max-width: 500px;
