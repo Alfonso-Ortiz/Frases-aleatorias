@@ -7,7 +7,6 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
 }
 
 .App {
@@ -20,7 +19,7 @@ body {
 
 .App .card {
   background-color: white;
-  width: 450px;
+  width: 500px;
   padding: 1rem;
   border-radius: 1rem;
   box-shadow: 0px 0px 11px 2.8px rgba(0, 0, 0, 0.75);
